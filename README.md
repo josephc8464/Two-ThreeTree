@@ -3,10 +3,6 @@
 ## Project Overview
 This project is a custom, from-scratch implementation of a **2-3 Tree** in Java. Unlike a standard Binary Search Tree, a 2-3 Tree is a self-balancing data structure that guarantees $O(\log n)$ time complexity for search, insertion, and deletion by ensuring all leaf nodes remain at the same depth.
 
-This implementation was designed to demonstrate proficiency in recursive algorithm design, complex pointer/reference management, and maintaining data integrity in dynamic systems—skills directly applicable to mission-critical software engineering.
-
-
-
 ## Key Features
 * **Self-Balancing Logic**: Implemented complex node-splitting and key-promotion algorithms to ensure the tree never becomes skewed.
 * **Efficient Data Handling**: Optimized for $O(\log n)$ performance, making it suitable for large-scale dataset parsing.
