@@ -15,18 +15,4 @@ The core of a 2-3 Tree’s power lies in how it handles overflow. When a 3-node 
 1.  Temporarily creates a 4-node.
 2.  Identifies the median key.
 3.  Promotes the median key to the parent node.
-4.  Splits the remaining keys into two separate 2-nodes.
-
-## How to Run
-1.  **Clone the repository**:
-    ```bash
-    git clone [https://github.com/josephc8464/Two-ThreeTree.git](https://github.com/josephc8464/Two-ThreeTree.git)
-    ```
-2.  **Compile the Java files**:
-    ```bash
-    javac *.java
-    ```
-3.  **Run the application**:
-    ```bash
-    java Main
-    ```
+4.  Splits the remaining keys into two separate 2-nodes.```
